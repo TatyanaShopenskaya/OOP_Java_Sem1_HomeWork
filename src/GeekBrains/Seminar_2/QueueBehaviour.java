@@ -14,6 +14,6 @@ package GeekBrains.Seminar_2;
 public interface QueueBehaviour {
     void takeInQueue(Actor actor);     //метод помещения в очередь
     void makeOrders();  //метод оформления заказа
-    void takeOrders();  //метод забора заказа
-    void releaseFromQueue();    //метод высвобождения из очереди
+    void takeOrders();  //метод получения заказа
+    void releaseFromQueue();    //метод выхода из очереди
 }

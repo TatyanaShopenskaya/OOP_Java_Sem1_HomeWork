@@ -13,7 +13,7 @@ package GeekBrains.Seminar_2;
 
 public interface ActorBehavoir {      //создали Интерфейс ActorBehavoir,который будет содержать описание действий актора в очереди/магазине
     void setMakeOrder(boolean makeOrder);    //метод, кот будет делать заказ
-    void setTakeOrder(boolean takeOrder);   //метод, кот будет получить заказ
+    void setTakeOrder(boolean takeOrder);   //метод, кот будет получать заказ
     boolean isMakeOrder();  //метод, кот будет говорить, сделан ли заказ
     boolean isTakeOrder();  //метод, кот будет говорить, получен ли заказ
 

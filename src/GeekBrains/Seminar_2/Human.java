@@ -1,6 +1,6 @@
 package GeekBrains.Seminar_2;
 
-public class Human extends Actor{
+public class Human extends Actor{    //наследник актора
 
     public Human(String name) {
         super(name);
@@ -25,11 +25,13 @@ public class Human extends Actor{
 
     @Override
     public boolean isMakeOrder() {
+
         return super.isMakeOrder;
     }
 
     @Override
     public boolean isTakeOrder() {
+
         return super.isTakeOrder;
     }
 }

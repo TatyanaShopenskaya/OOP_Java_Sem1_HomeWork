@@ -14,7 +14,7 @@ public class Market implements QueueBehaviour, MarketBehaviour {
 
     @Override
     public void releaseFromMarket(List<Actor> actors) {
-        for(Actor actor: queu){     //пробегаемся по новому списку и выгоняем тех, кто уже не в очереди  из магазина
+        for(Actor actor: queu){     //6. пробегаемся по новому списку и выгоняем тех, кто уже не в очереди  из магазина
             queu.remove(actor);
             System.out.println(actor.getName() + " вышел из магазина");
         }
@@ -25,7 +25,6 @@ public class Market implements QueueBehaviour, MarketBehaviour {
         makeOrders();
         takeOrders();
         releaseFromQueue();
-        //releaseFromMarket();
     }
 
     @Override
@@ -46,7 +45,7 @@ public class Market implements QueueBehaviour, MarketBehaviour {
 
     @Override
     public void takeOrders() {
-        for (Actor actor : queu) {      //пробегаемcя по очереди
+        for (Actor actor : queu) {      //4.пробегаемcя по очереди
             if (actor.isMakeOrder) {     //если эктор сделал заказ, то ему его выдают
                 actor.setTakeOrder(true);
                 System.out.println(actor.getName() + " забрал свой заказ");
@@ -56,7 +55,7 @@ public class Market implements QueueBehaviour, MarketBehaviour {
 
     @Override
     public void releaseFromQueue() {
-        List<Actor> releaseActors = new ArrayList<>(); //создали новый список для теех, кто уже забрал заказ
+        List<Actor> releaseActors = new ArrayList<>(); //5. создали новый список для тех, кто уже забрал заказ
         for (Actor actor : queu) {      //пробегаемcя по очереди
             if (actor.isTakeOrder) {     //если эктор уже забрал заказ, то его добавляют в список на выход из очереди
                 releaseActors.add(actor);

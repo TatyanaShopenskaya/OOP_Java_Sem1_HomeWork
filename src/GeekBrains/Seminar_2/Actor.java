@@ -9,5 +9,4 @@ abstract String getName();
     public Actor(String name) {    //создали конструктор
         this.name = name;
     }
-
 }
