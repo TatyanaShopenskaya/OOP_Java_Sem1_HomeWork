@@ -1,8 +1,8 @@
-package GeekBrains.OOP.Seminar_3.service;
+package GeekBrains.OOP.Seminar_3_and_4.service;
 
-import GeekBrains.OOP.Seminar_3.model.Student;
-import GeekBrains.OOP.Seminar_3.model.UserComporator;
-import GeekBrains.OOP.Seminar_3.model.StudentGroup;
+import GeekBrains.OOP.Seminar_3_and_4.model.Student;
+import GeekBrains.OOP.Seminar_3_and_4.model.UserComporator;
+import GeekBrains.OOP.Seminar_3_and_4.model.StudentGroup;
 
 import java.util.ArrayList;
 import java.util.Collections;

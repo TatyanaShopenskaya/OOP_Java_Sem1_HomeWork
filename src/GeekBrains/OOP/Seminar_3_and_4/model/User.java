@@ -1,4 +1,4 @@
-package GeekBrains.OOP.Seminar_3.model;
+package GeekBrains.OOP.Seminar_3_and_4.model;
 //Семинар 4. Задача 1
 //        � Создать класс Юзер и перенести в него базовые поля ( ФИО )
 //        � Модифицировать ранее созданный класс СтудентКомпаратор
@@ -43,6 +43,7 @@ public class User {    //общий класс для всех наших люд
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    public String
 
     @Override
     public String toString() {

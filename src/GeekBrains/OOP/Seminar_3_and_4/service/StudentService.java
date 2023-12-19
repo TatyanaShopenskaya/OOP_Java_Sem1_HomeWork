@@ -1,6 +1,6 @@
-package GeekBrains.OOP.Seminar_3.service;
+package GeekBrains.OOP.Seminar_3_and_4.service;
 
-import GeekBrains.OOP.Seminar_3.model.Student;
+import GeekBrains.OOP.Seminar_3_and_4.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;

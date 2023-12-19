@@ -1,8 +1,8 @@
-package GeekBrains.OOP.Seminar_3.controler;
+package GeekBrains.OOP.Seminar_3_and_4.controler;
 
-import GeekBrains.OOP.Seminar_3.service.StudentService;
-import GeekBrains.OOP.Seminar_3.view.StudentView;
-import GeekBrains.OOP.Seminar_3.model.Student;
+import GeekBrains.OOP.Seminar_3_and_4.service.StudentService;
+import GeekBrains.OOP.Seminar_3_and_4.view.StudentView;
+import GeekBrains.OOP.Seminar_3_and_4.model.Student;
 
 public class StudentControler implements UserControler<Student> {
     private final StudentService studentService = new StudentService();

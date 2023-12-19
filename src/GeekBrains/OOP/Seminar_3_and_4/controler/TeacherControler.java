@@ -1,8 +1,8 @@
-package GeekBrains.OOP.Seminar_3.controler;
+package GeekBrains.OOP.Seminar_3_and_4.controler;
 
-import GeekBrains.OOP.Seminar_3.model.Teacher;
-import GeekBrains.OOP.Seminar_3.service.TeacherService;
-import GeekBrains.OOP.Seminar_3.view.TeacherView;
+import GeekBrains.OOP.Seminar_3_and_4.model.Teacher;
+import GeekBrains.OOP.Seminar_3_and_4.service.TeacherService;
+import GeekBrains.OOP.Seminar_3_and_4.view.TeacherView;
 
 public class TeacherControler implements UserControler<Teacher> {
     private final TeacherService teacherService = new TeacherService();

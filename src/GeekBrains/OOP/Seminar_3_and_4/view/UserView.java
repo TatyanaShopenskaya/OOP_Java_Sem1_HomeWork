@@ -1,5 +1,5 @@
-package GeekBrains.OOP.Seminar_3.view;
-import GeekBrains.OOP.Seminar_3.model.User;
+package GeekBrains.OOP.Seminar_3_and_4.view;
+import GeekBrains.OOP.Seminar_3_and_4.model.User;
 
 import java.util.List;
 //Семинар 4. Задача 2

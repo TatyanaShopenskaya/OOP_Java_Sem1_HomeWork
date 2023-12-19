@@ -38,9 +38,9 @@
 //        списка студентов по ФИО и вызывать в нем созданный метод из
 //        УчебнаяГруппаСервис
 
-package GeekBrains.OOP.Seminar_3;
+package GeekBrains.OOP.Seminar_3_and_4;
 
-import GeekBrains.OOP.Seminar_3.controler.TeacherControler;
+import GeekBrains.OOP.Seminar_3_and_4.controler.TeacherControler;
 
 public class Main {
     public static void main(String[] args) {

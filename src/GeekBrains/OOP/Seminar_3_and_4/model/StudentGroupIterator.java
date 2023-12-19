@@ -1,4 +1,4 @@
-package GeekBrains.OOP.Seminar_3.model;
+package GeekBrains.OOP.Seminar_3_and_4.model;
 
 import java.util.Iterator;
 import java.util.List;

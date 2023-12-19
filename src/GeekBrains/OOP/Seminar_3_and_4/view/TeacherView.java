@@ -1,6 +1,6 @@
-package GeekBrains.OOP.Seminar_3.view;
+package GeekBrains.OOP.Seminar_3_and_4.view;
 
-import GeekBrains.OOP.Seminar_3.model.Teacher;
+import GeekBrains.OOP.Seminar_3_and_4.model.Teacher;
 
 import java.util.List;
 
